@@ -1,0 +1,296 @@
+body{
+    background-color: #5CDB95 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+.header{
+    background-color: #379683;
+    margin-bottom: 40px;
+    margin-top: 0px;
+
+
+}
+
+.fundo{
+    background-color: #379683
+
+}
+
+.header_area{
+    padding: 10px;
+}
+
+.menu_area{
+    margin-top: 60px;
+}
+
+.search_bar{
+    top: 58px;
+}
+
+.home{
+    background-color: #1c3d5c !important;
+}
+
+
+
+.menu_area .nav a{
+    background-color: #146d5b ;
+    color: white;
+    font-size: 150%;
+    margin-right: 5px;
+}
+
+.nav .active{
+    background-color: #0f5547 !important;
+
+}
+
+.logo{
+    width: 120px;
+}
+
+.input_text{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.btn-success{
+    background-color: #146d5b !important;
+
+}
+
+.navbarl{
+    top: 45px;
+    width: 20%;
+}
+
+.box-noticia{
+    margin-top: 10px;;
+    color: #1e5046;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-info{
+    background-color: #4aeb92;
+    border-radius: 15px;
+    height: 300px;
+    margin-left: 5px !important;
+
+}
+
+.box-noticia img {
+    float: left;
+    margin-right: 10px;
+}
+
+.box-noticia .titulo_filme{
+    font-weight: 700;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.box-noticia .release_date{
+    color: white;
+    background-color: #44a36f;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 15px;
+
+}
+
+.box-noticia .overview{
+    font-size: 150%;
+
+
+}
+
+
+.semi_footer{
+    top: 20px;
+}
+
+.footer{
+    background-color: #379683;
+    background-size: 100%;
+    height: 50px;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.footer_logo > img{
+    width: 40px;
+}
+
+.semi_footer .icones{
+    font-size: 2.3em;
+
+
+}
+
+@media screen and (max-width: 575px){
+    .logo{
+        margin-left: 20px;
+    }
+
+    .header{
+        top: 40px;
+    }
+
+    .header_area{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .menu_area{
+        margin-top: 10px !important;
+        padding: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px){
+    .logo{
+        margin-left: 20px;
+    }
+    .menu_area{
+        margin-top: 40px;
+    }
+
+    .nav-link{
+        margin: 5px;
+    }
+
+    .imagens{
+        display: none;
+    }
+    .entrevista3{
+        display: none;
+    }
+
+    .entrevistas{
+        align-items: center;
+ 
+    }
+
+    .entrevistas_makingoff{
+        text-align: center;
+    }
+
+    .search_bar{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:601px) and (max-width:980px){
+
+    .entrevista3{
+        display: none;
+    }
+
+    .entrevistas{
+        align-items: center;
+ 
+    }
+
+    .entrevistas_makingoff{
+        text-align: center;
+    }
+
+    .imagens{
+        display: none;
+    }
+
+    .informacoes .textos{
+        text-align: center;
+    }
+    
+    .informacoes{
+        padding: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+
+    .carousel_video > iframe{
+        width: 500px;
+        height: 350px;
+    }
+    
+    .entrevista3{
+        display: none;
+    }
+    .entrevistas{
+        margin: 50px;
+    }
+    .entrevista2{
+        margin: 50px;
+    }
+    .imagens >img{
+        margin-right: 25px;
+        margin-top: 35px;
+    }
+
+    .textos{
+        margin-left: 50px;
+    }
+
+    .semi_footer{
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1199px){
+    .bi-x-circle{
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .logo{
+        margin-top: 30px;
+    }
+
+    .header{
+        margin-top: 0px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 360){
+
+    .header{
+        width: 100% !important;
+    }
+    .carousel-item > iframe{
+        width: 20px;
+        height: 30;
+    }
+
+    .inform{
+        text-align: center;
+    }
+
+    .tags{
+        margin-bottom: 40px;
+    }
+}
