@@ -16,7 +16,7 @@ onload = () => {
 
             texto = texto + `
             <div class="box-noticia col-12 col-lg-12 col-md-12 col-sm-12">
-                <img src="http://image.tmdb.org/t/p/w200/${artigo.poster_path}" class="poster_filme" alt="">
+                <img class="poster_filme" src="http://image.tmdb.org/t/p/w200/${artigo.poster_path}"  alt="">
                 <div class="box-info">
                     <span class="titulo_filme">${artigo.title}</span><br>
                     <span class="release_date">${data.toLocaleDateString()} - Conteúdo adulto (${artigo.adult})</span><br>

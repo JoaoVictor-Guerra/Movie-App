@@ -85,7 +85,6 @@ body{
 }
 
 
-
 .menu_area .nav a{
     background-color: #146d5b ;
     color: white;
@@ -100,6 +99,16 @@ body{
 
 .logo{
     width: 120px;
+}
+
+.redireciona{
+    color: white;
+    text-decoration: none;
+}
+
+.redireciona:hover{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -535,4 +544,35 @@ body{
     .tags{
         margin-bottom: 40px;
     }
+}
+
+
+@media screen and (min-width:481px) and (max-width:762px){
+    .filmes_populares .popularesimg{
+        margin-left: 90px;
+    
+    }
+
+    .descri_popular{
+        height: 180px !important;
+
+    }
+
+    .filmes_populares .leia_mais{
+        margin-bottom: 10px !important;
+    }
+
+}
+
+@media screen and (min-width:376px) and (max-width:480px){
+    .filmes_populares .popularesimg{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .filmes_populares:last-child{
+        display: none;
+    }
+
 }
