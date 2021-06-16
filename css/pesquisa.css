@@ -17,6 +17,8 @@ body{
 
 }
 
+
+
 .header_area{
     padding: 10px;
 }
@@ -33,6 +35,10 @@ body{
     background-color: #1c3d5c !important;
 }
 
+.home:hover{
+    background-color: #2b5883 !important;
+}
+
 
 
 .menu_area .nav a{
@@ -41,6 +47,13 @@ body{
     font-size: 150%;
     margin-right: 5px;
 }
+
+.menu_area .nav a:hover{
+    background-color: #127964 ;
+
+}
+
+
 
 .nav .active{
     background-color: #0f5547 !important;
@@ -51,14 +64,29 @@ body{
     width: 120px;
 }
 
+.logo:hover{
+    width: 130px;
+}
+
 .input_text{
     width: 200px;
-    height: 25px;
+    height: 30px;
     border-radius: 5px;
+    font-size: 150%;
+}
+
+.btn-search{
+    height: 30px;
+    margin-bottom: 5px !important;
 }
 
 .btn-success{
     background-color: #146d5b !important;
+
+}
+
+.btn-success:hover{
+    background-color: #178f77 !important;
 
 }
 
@@ -315,7 +343,7 @@ body{
 
 @media screen and (min-width:325px) and (max-width:600px){
     .box-info{
-        height: 500px;
+        height: 550px;
         margin-left: 5px !important;
     
     }

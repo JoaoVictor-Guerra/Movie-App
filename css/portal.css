@@ -92,6 +92,12 @@ body{
     margin-right: 5px;
 }
 
+.menu_area .nav a:hover{
+    background-color: #17856f;
+
+
+}
+
 .nav .active{
     background-color: #0f5547 !important;
 
@@ -99,6 +105,10 @@ body{
 
 .logo{
     width: 120px;
+}
+
+.logo:hover{
+    width: 130px;
 }
 
 .redireciona{
@@ -131,6 +141,8 @@ body{
 }
 
 
+
+
 .titulo{
     text-align: center;
     margin-top: 20px;
@@ -149,6 +161,10 @@ body{
 
 .home{
     background-color: #1c3d5c !important;
+}
+
+.home:hover{
+    background-color: #2b5883 !important;
 }
 
 .nav_espac{
@@ -373,6 +389,8 @@ body{
 
 .footer_logo > img{
     width: 40px;
+    text-align: center;
+    margin-bottom: 2px;
 }
 
 .semi_footer .icones{
